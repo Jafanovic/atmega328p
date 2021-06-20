@@ -18,14 +18,14 @@ int led2_f = PIN_A5;
 int led2_g = PIN_A4;
 int led2_dp = 9;
 
-int led1_a = 12;
-int led1_b = PIN_A3;
-int led1_c = 2;
-int led1_e = 11;
-int led1_d = 10;
-int led1_f = PIN_A2;
-int led1_g = PIN_A1;
-int led1_dp = 3;
+int led1_a = 12;     // OK
+int led1_b = PIN_A3; // OK
+int led1_c = PIN_A0; // OK
+int led1_d = 10;     // OK
+int led1_e = 11;     // OK
+int led1_f = PIN_A2; // OK
+int led1_g = PIN_A1; // OK
+int led1_dp = 3;     // OK
 
 
 
@@ -44,14 +44,14 @@ void setup() {
   pinMode(led2_g,  OUTPUT);
   pinMode(led2_dp, OUTPUT); 
 
-  //pinMode(led1_a,  OUTPUT);
-  //pinMode(led1_b,  OUTPUT);
-  //pinMode(led1_c,  OUTPUT);
+  pinMode(led1_a,  OUTPUT);  
+  pinMode(led1_b,  OUTPUT);  
+  pinMode(led1_c,  OUTPUT);
   pinMode(led1_d,  OUTPUT); 
-  //pinMode(led1_e,  OUTPUT); 
-  //pinMode(led1_f,  OUTPUT); 
-  //pinMode(led1_g,  OUTPUT); 
-  //pinMode(led1_dp, OUTPUT);
+  pinMode(led1_e,  OUTPUT); 
+  pinMode(led1_f,  OUTPUT); 
+  pinMode(led1_g,  OUTPUT); 
+  pinMode(led1_dp, OUTPUT);
    
 }
 
@@ -68,14 +68,14 @@ void loop() {
   digitalWrite(led2_g, HIGH);
   digitalWrite(led2_dp, HIGH);
 
-  //digitalWrite(led1_a, HIGH);
-  //digitalWrite(led1_b, HIGH);
-  //digitalWrite(led1_c, HIGH);
+  digitalWrite(led1_a, HIGH);
+  digitalWrite(led1_b, HIGH);
+  digitalWrite(led1_c, HIGH);
   digitalWrite(led1_d, HIGH);
-  //digitalWrite(led1_e, HIGH);
-  //digitalWrite(led1_f, HIGH);
-  //digitalWrite(led1_g, HIGH);
-  //digitalWrite(led1_dp, HIGH);
+  digitalWrite(led1_e, HIGH);
+  digitalWrite(led1_f, HIGH);
+  digitalWrite(led1_g, HIGH);
+  digitalWrite(led1_dp, HIGH);
   
   
   delay(1000);               // wait for a second
@@ -90,14 +90,14 @@ void loop() {
   digitalWrite(led2_g, LOW);
   digitalWrite(led2_dp, LOW);
 
-  //digitalWrite(led1_a, LOW);
-  //digitalWrite(led1_b, LOW);
-  //digitalWrite(led1_c, LOW);
+  digitalWrite(led1_a, LOW);
+  digitalWrite(led1_b, LOW);
+  digitalWrite(led1_c, LOW);
   digitalWrite(led1_d, LOW);
-  //digitalWrite(led1_e, LOW);
-  //digitalWrite(led1_f, LOW);
-  //digitalWrite(led1_g, LOW);
-  //digitalWrite(led1_dp, LOW);
+  digitalWrite(led1_e, LOW);
+  digitalWrite(led1_f, LOW);
+  digitalWrite(led1_g, LOW);
+  digitalWrite(led1_dp, LOW);
   
   delay(1000);               // wait for a second
 }
