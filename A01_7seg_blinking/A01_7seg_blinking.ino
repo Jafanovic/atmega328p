@@ -7,25 +7,25 @@
 
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
-int led_NANO = LED_BUILTIN;
+const byte led_NANO = LED_BUILTIN;
 
-int led2_a = 6;
-int led2_b = 7;
-int led2_c = 8;
-int led2_d = 5;
-int led2_e = 4;
-int led2_f = PIN_A5;
-int led2_g = PIN_A4;
-int led2_dp = 9;
+const byte led2_a = 6;
+const byte led2_b = 7;
+const byte led2_c = 8;
+const byte led2_d = 5;
+const byte led2_e = 4;
+const byte led2_f = PIN_A5;
+const byte led2_g = PIN_A4;
+const byte led2_dp = 9;
 
-int led1_a = 12;     // OK
-int led1_b = PIN_A3; // OK
-int led1_c = PIN_A0; // OK
-int led1_d = 10;     // OK
-int led1_e = 11;     // OK
-int led1_f = PIN_A2; // OK
-int led1_g = PIN_A1; // OK
-int led1_dp = 3;     // OK
+const byte led1_a = 12;     // OK
+const byte led1_b = PIN_A3; // OK
+const byte led1_c = PIN_A0; // OK
+const byte led1_d = 10;     // OK
+const byte led1_e = 11;     // OK
+const byte led1_f = PIN_A2; // OK
+const byte led1_g = PIN_A1; // OK
+const byte led1_dp = 3;     // OK
 
 
 
