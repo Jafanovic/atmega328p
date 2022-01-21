@@ -14,17 +14,17 @@ const byte led2_b = 7;
 const byte led2_c = 8;
 const byte led2_d = 5;
 const byte led2_e = 4;
-const byte led2_f = PIN_A5;
-const byte led2_g = PIN_A4;
+const byte led2_f = 19;
+const byte led2_g = 18;
 const byte led2_dp = 9;
 
 const byte led1_a = 12;     // OK
-const byte led1_b = PIN_A3; // OK
-const byte led1_c = PIN_A0; // OK
+const byte led1_b = 17;     // OK
+const byte led1_c = 14;     // OK
 const byte led1_d = 10;     // OK
 const byte led1_e = 11;     // OK
-const byte led1_f = PIN_A2; // OK
-const byte led1_g = PIN_A1; // OK
+const byte led1_f = 16;     // OK
+const byte led1_g = 15;     // OK
 const byte led1_dp = 3;     // OK
 
 
@@ -45,7 +45,7 @@ void setup() {
   pinMode(led2_dp, OUTPUT); 
 
   pinMode(led1_a,  OUTPUT);  
-  pinMode(led1_b,  OUTPUT);  
+  pinMode(led1_b,  OUTPUT);
   pinMode(led1_c,  OUTPUT);
   pinMode(led1_d,  OUTPUT); 
   pinMode(led1_e,  OUTPUT); 
@@ -57,6 +57,7 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
+
   digitalWrite(led_NANO, HIGH); 
   
   digitalWrite(led2_a, HIGH);
@@ -76,9 +77,8 @@ void loop() {
   digitalWrite(led1_f, HIGH);
   digitalWrite(led1_g, HIGH);
   digitalWrite(led1_dp, HIGH);
-  
-  
-  delay(1000);               // wait for a second
+
+  delay(100);               // wait for a second
   digitalWrite(led_NANO, LOW);
 
   digitalWrite(led2_a, LOW); 
@@ -99,5 +99,6 @@ void loop() {
   digitalWrite(led1_g, LOW);
   digitalWrite(led1_dp, LOW);
   
-  delay(1000);               // wait for a second
+  delay(100);               // wait for a second
+
 }
