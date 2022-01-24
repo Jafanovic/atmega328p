@@ -1,0 +1,7 @@
+{
+    "port": "COM6",
+    "configuration": "cpu=atmega328",
+    "board": "arduino:avr:nano",
+    "programmer": "arduino:arduinoasisp",
+    "sketch": "A01_7seg_blinking\\A01_7seg_blinking.ino"
+}
