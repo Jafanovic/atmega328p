@@ -30,7 +30,7 @@
 
 #define common_cathode 0
 #define common_anode 1
-bool segMode = common_anode; // set this to your segment type, my segment is common_cathode
+bool segMode = common_anode;  // set this to your segment type, my segment is common_cathode
 
 int seg1[] {led1_a, led1_b, led1_c ,led1_d, led1_e, led1_f, led1_g, led1_dp}; // segment pins
 int seg2[] {led2_a, led2_b, led2_c ,led2_d, led2_e, led2_f, led2_g, led2_dp};
@@ -167,6 +167,14 @@ void Print(int num){ // print any number on the segment
 void loop(){  
   for(int i = 0;i < chars;i++){ //print  
     Print(i);
+  digitalWrite(led2_a, LOW); 
+  digitalWrite(led2_b, LOW);    // turn the LED on by making the voltage LOW
+  digitalWrite(led2_c, LOW);
+  digitalWrite(led2_d, LOW);
+  digitalWrite(led2_e, LOW);
+  digitalWrite(led2_f, LOW);
+  digitalWrite(led2_g, LOW);
+  digitalWrite(led2_dp, LOW);
     delay(1000);
   }
   //Print(number or character); 

@@ -61,7 +61,7 @@ void loop() {
   digitalWrite(led_NANO, HIGH); 
   
   digitalWrite(led2_a, HIGH);
-  digitalWrite(led2_b, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(led2_b, HIGH);   // turn the LED off (HIGH is the voltage level)
   digitalWrite(led2_c, HIGH);
   digitalWrite(led2_d, HIGH);
   digitalWrite(led2_e, HIGH);
@@ -83,7 +83,7 @@ void loop() {
   digitalWrite(led_NANO, LOW);
 
   digitalWrite(led2_a, LOW); 
-  digitalWrite(led2_b, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(led2_b, LOW);    // turn the LED on by making the voltage LOW
   digitalWrite(led2_c, LOW);
   digitalWrite(led2_d, LOW);
   digitalWrite(led2_e, LOW);
