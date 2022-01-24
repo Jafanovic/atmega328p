@@ -9,6 +9,7 @@
   https://www.youtube.com/watch?v=VfLTZcKCGfk&ab_channel=MaximilianHagelstam
  */
 
+
 #define led2_a    6
 #define led2_b    7
 #define led2_c    8
@@ -86,7 +87,7 @@ void setup() {
   pinMode(led2_dp, OUTPUT); 
 
   pinMode(led1_a,  OUTPUT);  
-  pinMode(led1_b,  OUTPUT);  
+  pinMode(led1_b,  OUTPUT);
   pinMode(led1_c,  OUTPUT);
   pinMode(led1_d,  OUTPUT); 
   pinMode(led1_e,  OUTPUT); 
@@ -96,19 +97,18 @@ void setup() {
    
 }
 
+
 void setState(bool mode){  //sets the hole segment state to "mode"
   for(int i = 0;i<=6;i++){
     digitalWrite(seg1[i],mode);
   }
 }
 
-
-
 void Print(char Char){  // print any character on the segment 
                         // ( Note : you can't use capital characters )
   int charNum = -1;     // set search resault to -1
   setState(segMode);    // turn off the segment
-  
+
   for(int i = 0; i < chars ;i++){   // search for the enterd character
     if(Char == Chars[i][0]){        // if the character found
       charNum = i;                  // set the resault number into charNum 
