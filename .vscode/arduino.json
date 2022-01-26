@@ -1,7 +1,7 @@
 {
-    "port": "COM6",
+    "port": "COM3",
     "configuration": "cpu=atmega328",
     "board": "arduino:avr:nano",
     "programmer": "arduino:arduinoasisp",
-    "sketch": "A05_Grove_Potentiometer_Brightness\\A05_Grove_Potentiometer_Brightness.ino"
+    "sketch": "A06_Grove_PushButton_LED13\\A06_Grove_PushButton_LED13.ino"
 }
