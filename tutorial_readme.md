@@ -8,5 +8,15 @@ the power jack is missing and instead of a standard USB port the Nano has a Mini
 
 ## Usefull links
 
+## Arduino Nano R3 Pinout
+![Arduino Nano R3 Pinout](https://diyi0t.com/wp-content/uploads/2019/08/Arduino-Nano-Pinout-1.png)
+
 ## Arduino Nano R3 Power Supply
+
+The Nano has one 3.3V and two 5V power pins of which one is the VIN pin. With the VIN pin you can
+supply the Arduino Nano with a voltage between 7V-12V to run the microcontroller on battery for
+example. All three power pins provide a maximum currency of 50 mA. You can close the circuit with
+two ground pins.
+
 ![Arduino Nano R3 Power Supply](https://diyi0t.com/wp-content/uploads/2019/08/Arduino-Nano-voltage-current-overview.png)
+
