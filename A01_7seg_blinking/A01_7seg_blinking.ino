@@ -129,11 +129,12 @@ void Print(char Char){  // print any character on the segment
       delay(100);
       setState(LOW); 
     }
-  } else{ // else if the character found print it    
-      for(int i = 0;i<8;i++){
-        digitalWrite(seg1[i],Chars[charNum][i+1]);
-      }
+  } 
+  else{ // else if the character found print it    
+    for(int i = 0;i<8;i++){
+      digitalWrite(seg1[i],Chars[charNum][i+1]);
     }
+  }
 }
 
 void Print(int num){ // print any number on the segment
@@ -151,16 +152,18 @@ void Print(int num){ // print any number on the segment
       delay(100);
       setState(LOW); 
     }
-  }else{              // else if the number declared, print it
+  }
+  else{              // else if the number declared, print it
     if(segMode == 0){ // for segment mode
       for(int i = 0;i<8;i++){
         digitalWrite(seg1[i],Chars[num][i+1]);
       }
-    } else{
-        for(int i = 0;i<8;i++){
-          digitalWrite(seg1[i],!Chars[num][i+1]);
-        }
+    } 
+    else{
+      for(int i = 0;i<8;i++){
+        digitalWrite(seg1[i],!Chars[num][i+1]);
       }
+    }
   }
 }
 
