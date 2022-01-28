@@ -3,5 +3,5 @@
     "configuration": "cpu=atmega328",
     "board": "arduino:avr:nano",
     "programmer": "arduino:arduinoasisp",
-    "sketch": "A07_Grove_DHT20\\A07_Grove_DHT20.ino"
+    "sketch": "A08_Grove_RGB_test01\\A08_Grove_RGB01.ino"
 }
