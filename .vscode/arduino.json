@@ -1,7 +1,4 @@
 {
     "port": "COM3",
-    "configuration": "cpu=atmega328",
-    "board": "arduino:avr:nano",
-    "programmer": "arduino:arduinoasisp",
-    "sketch": "A09_Grove_LightSensor\\A09_Grove_LightSensor.ino"
+    "board": "arduino:avr:nano"
 }

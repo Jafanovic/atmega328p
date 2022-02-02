@@ -3,5 +3,10 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+		"editor.wrappingStrategy": "advanced",
+		"diffEditor.wordWrap": "on"
+	}
 }
