@@ -3,5 +3,5 @@
     "configuration": "cpu=atmega328",
     "board": "arduino:avr:nano",
     "programmer": "arduino:arduinoasisp",
-    "sketch": "A08_Grove_RGB_test01\\A08_Grove_RGB01.ino"
+    "sketch": "A09_Grove_LightSensor\\A09_Grove_LightSensor.ino"
 }
