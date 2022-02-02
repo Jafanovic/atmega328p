@@ -1,4 +1,4 @@
-const int  led_pin = PIN_A6;
+const int  led_pin = PIN6;
 
 void setup(){
     Serial.begin(115200); 
@@ -10,14 +10,13 @@ void setup(){
 void loop(){
   // read the input on analog pin 0:
   int sensorVal = analogRead(PIN_A0);
-  // print out the value you read:
   // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
   float voltage = sensorVal * (5.0 / 1023.0);
-  // Serial.println(sensorVal, DEC);
-   // the default PWM resolution
-  //analogWriteResolution(8);
-  //analogWrite(led_pin, map(sensorVal, 0, 1023, 0, 255));
-  analogWrite(led_pin, 125);
+  int val = map(sensorVal, 0, 500, 0, 255);
+  // the default PWM resolution
+  analogWrite(led_pin, 255-val);
+  // print out the value you read:
+  Serial.println(val, DEC);
 
-  // delay(500);
+  delay(500);
 } 

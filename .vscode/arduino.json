@@ -1,4 +1,5 @@
 {
     "port": "COM3",
-    "board": "arduino:avr:nano"
+    "board": "arduino:avr:nano",
+    "sketch": "A09_Grove_LightSensor\\A09_Grove_LightSensor.ino"
 }
