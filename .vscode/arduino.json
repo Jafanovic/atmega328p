@@ -1,7 +1,7 @@
 {
-    "port": "COM3",
+    "port": "COM6",
     "configuration": "cpu=atmega328",
     "board": "arduino:avr:nano",
     "programmer": "arduino:arduinoasisp",
-    "sketch": "A08_Grove_RGB_test01\\A08_Grove_RGB01.ino"
+    "sketch": "A06_Grove_PushButton_LED13\\A06_Grove_PushButton_LED13.ino"
 }
