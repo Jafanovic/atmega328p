@@ -1,20 +1,21 @@
-
 // set pin numbers:
-const int buttonPin = 6;     // the number of the pushbutton pin
-const int ledPin =  13;      // the number of the bulitin LED pin
-// const int ledPin =  2;    // the number of the Grove LED pin
+const int buttonPin = 6;  // pushbutton pin
+const int ledPin    = 13; // bulitin LED pin
 
-// variables will change:
-int buttonState = 0;         // variable for reading the pushbutton status
+// variable for reading the pushbutton status
+int buttonState = 0;         
 
+// the setup routine is started once after 
+// pressing the reset button:
 void setup() {
   Serial.begin(9600);
-  // initialize the LED pin as an output:
+  // init the LED pin as an output:
   pinMode(ledPin, OUTPUT);
-  // initialize the pushbutton pin as an input:
+  // init the button pin as an input:
   pinMode(buttonPin, INPUT);
 }
 
+//the loop routine runs forever:
 void loop() {
   // read the state of the pushbutton value: 
   buttonState = digitalRead(buttonPin);

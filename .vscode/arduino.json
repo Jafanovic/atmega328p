@@ -1,5 +1,5 @@
 {
     "port": "COM3",
     "board": "arduino:avr:nano",
-    "sketch": "A09_Grove_LightSensor\\A09_Grove_LightSensor.ino"
+    "sketch": "A06_Grove_PushButton_LED13\\A06_Grove_PushButton_LED13.ino"
 }
