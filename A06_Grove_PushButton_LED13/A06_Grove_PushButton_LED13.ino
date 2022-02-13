@@ -1,6 +1,6 @@
 // set pin numbers:
 const int buttonPin = 6;  // pushbutton pin
-const int ledPin    = 13; // bulitin LED pin
+const int ledPin    = 13; // built-in LED pin
 
 // variable for reading the pushbutton status
 int buttonState = 0;         
