@@ -8,7 +8,7 @@ void setup() {
 }
  
 void loop() {
-  if(digitalRead(PIR_MOTION_SENSOR))//if it detects the moving people?
+  if(digitalRead(PIR_MOTION_SENSOR))  //if it detects the moving people?
       Serial.println("Hi,people is coming");
   else
       Serial.println("Watching");

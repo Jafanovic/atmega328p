@@ -17,3 +17,6 @@ Interface
 ## Links
  - https://create.arduino.cc/projecthub/mafzal/temperature-monitoring-with-dht22-arduino-15b013
  - https://www.seeedstudio.com/blog/2020/04/20/dht11-vs-dht22-am2302-which-temperature-humidity-sensor-should-you-use/
+
+## Librarry
+ - [Seeed-Studio/Grove_Temperature_And_Humidity_Sensor](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor)
