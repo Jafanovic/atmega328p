@@ -1,5 +1,5 @@
 {
     "port": "COM6",
     "board": "arduino:avr:nano",
-    "sketch": "A10_Grove_PIR_Sensor\\A10_Grove_PIR_sensor.ino"
+    "sketch": "A07_Grove_DHT20\\A07_Grove_DHT20.ino"
 }
